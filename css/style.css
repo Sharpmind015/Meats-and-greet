@@ -1,0 +1,107 @@
+:root {
+  --color-1: #481aa0;
+  --color-2: #a2209d;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+ol {
+  list-style: none;
+}
+.fa {
+  font-size: 14px;
+}
+header {
+  min-height: 30vh;
+  background: url("../img/mng BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.logo {
+  width: 30px;
+  height: 50px;
+}
+.hero-text {
+  font-size: 4.3rem;
+}
+.register {
+  position: relative;
+  color: var(--color-2);
+  border-bottom: 4px solid var(--color-1);
+  display: inline-block;
+}
+.number {
+  display: inline-block;
+  background-color: var(--color-1);
+  background-image: linear-gradient(to bottom, var(--color-1), var(--color-2));
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.custom-file {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: var(--color-1);
+  padding: 2rem;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--color-1);
+  border-color: var(--color-1);
+}
+.btn-primary:hover {
+  background-color: var(--color-1);
+  border-color: var(--color-1);
+}
+
+/*Result*/
+.result {
+  background-color: #660f6d;
+  color: #fff;
+}
+.image {
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Loader*/
+.loader span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-2);
+  border-radius: 50%;
+  animation: 0.6s loader infinite ease-in-out both;
+}
+.loader .loader-2 {
+  animation-delay: -0.2s;
+}
+.loader .loader-3 {
+  animation-delay: -0.3s;
+}
+/*Loader animation*/
+@keyframes loader {
+  0% {
+    transform: scale(1) translateY(15px);
+  }
+  70% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(0.6) translateY(0);
+  }
+}
