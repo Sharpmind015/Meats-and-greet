@@ -55,8 +55,8 @@ document.getElementById("js-form").onsubmit = function(e) {
   </div>
   <div class="register">
     <p>Register at:</p>
-    <a href="https://rccgcovenantcenter.netlify.app">
-      <p>https://rccgcovenantcenter.netlify.app</p>
+    <a href="https://meats-and-greets.vercel.app/">
+      <p>https://meats-and-greets.vercel.app/</p>
     </a>
   </div>
   <div class="credit">
