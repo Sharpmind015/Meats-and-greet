@@ -13,7 +13,7 @@ document.getElementById("js-file").onchange = function() {
     "load",
     function() {
       window.url = reader.result;
-      label.style.background = `url(${window.url}) 0% 0% / cover no-repeat`;
+      label.style.background = `url(${window.url}) center / contain no-repeat`;
     },
     false
   );
@@ -187,7 +187,8 @@ a {
   border-radius: 0 0 500px 500px;
   background: url("https://res.cloudinary.com/dexg5uy3d/image/upload/v1606294290/mng_BG_cvjdud.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   top: -5px;
   left: 12.5px;
 }
